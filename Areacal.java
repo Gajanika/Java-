@@ -15,7 +15,7 @@ public static void main (String[] args){
     System.out.println("Enter the Num");
     x =sner.nextInt();
     y=sner.nextInt();
-    System.out.println("hi");
+    System.out.println("hrtbkher");
 Areacal area = new Areacal();
 area.pqr(x, y);
 sner.close();
