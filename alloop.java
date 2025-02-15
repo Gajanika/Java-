@@ -10,7 +10,7 @@ class alloop {
 
     // Method to calculate the area of a triangle
     public void calculateTriangleArea(double base, double height) {
-        double area = 0.5 * base * height;
+        double area = 0.5* base * height;
         System.out.println("The area of the Triangle is: " + area);
     }
 

@@ -7,7 +7,7 @@ class Bicycle {
     public int gear;
     public int speed;
 
-    // the Bicycle class has one constructor
+                                                           // the Bicycle class has one constructor
     public Bicycle(int gear, int speed)
     {
         this.gear = gear;
