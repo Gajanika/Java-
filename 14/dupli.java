@@ -12,6 +12,6 @@ public class dupli {
         System.out.println("Original:" + original);
         System.out.println("Duplicate:" + duooo);
 
-    }
+    }  
 
 }
