@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class mmm {
+public class Marks_in_Loop{
     public mmm(){
 
     }
