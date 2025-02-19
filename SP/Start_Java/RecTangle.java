@@ -12,10 +12,12 @@ class Areacal {
 public static void main (String[] args){
     int x,y;
     Scanner sner =new Scanner(System.in);
-    System.out.println("Enter the Num");
+    System.out.println("Enter the width");
+    
     x =sner.nextInt();
+    System.out.println("Enter the length");
     y=sner.nextInt();
-    System.out.println("hrtbkher");
+    // System.out.println("");
 Areacal area = new Areacal();
 area.pqr(x, y);
 sner.close();
