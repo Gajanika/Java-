@@ -10,7 +10,7 @@ public class VariableExample {
         // Local variable: Declared inside a method
         int localVar = 30;
 
-        // Accessing all three types of variables
+        // Accessing all three types of variables              //local   -    Declare Start  //instant   - object craete //static - programme start
         System.out.println("Local Variable: " + localVar);
         System.out.println("Instance Variable: " + instanceVar);
         System.out.println("Static Variable: " + staticVar);
