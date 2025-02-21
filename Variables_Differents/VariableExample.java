@@ -35,7 +35,6 @@ public class VariableExample {
     }
 }
 
-
 // Using obj1:
 // Local Variable: 30
 // Instance Variable: 10
