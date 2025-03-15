@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class dupli {
+public class Duplicate {
     public static void main(String[] args) {
         ArrayList<String> original = new ArrayList<>();
         original.add("ssda");

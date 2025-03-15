@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class Result {
-    public Result(){
+    public void Result1(){
 
     }
     public static void main(String[] args){

@@ -46,7 +46,7 @@ public class BankDriver {
 						break;
 				case 2:if(balance < 2000)
 						{
-							System.out.println("Minimum balance is 2000. Please make sure your minimum balance is 20000");
+							System.out.println("Minimum balance is 2000. Please make sure your minimum balance is 2000");
 						}
 						else{
 							cus1 = new nbd(name, accNo, acc_type, balance);
@@ -57,7 +57,7 @@ public class BankDriver {
 	
 				case 3:if(balance < 3000)
 						{
-							System.out.println("Minimum balance is 3000. Please make sure your minimum balance is 5000");
+							System.out.println("Minimum balance is 3000. Please make sure your minimum balance is 3000");
 						}
 						else{
 							cus1 = new fgb(name, accNo, acc_type, balance);
