@@ -1,0 +1,26 @@
+package com.example.Employee.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.Employee.DAO.StuDAO;
+import com.example.Employee.Model.StuDetails;
+
+@Controller
+public class controller {
+	
+	@Autowired
+	StuDAO studao;
+ @RequestMapping("index")
+ public String pageLoad() {
+	 return "index.html";
+ 
+ }
+ 
+ @RequestMapping("addStu")
+ public String SaveStud(StuDetails studetails){
+	 studao.save(studetails);
+ return "index.html";
+}
+}

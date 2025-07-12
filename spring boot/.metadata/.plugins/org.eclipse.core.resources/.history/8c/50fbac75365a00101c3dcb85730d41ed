@@ -1,0 +1,5 @@
+package com.example.College.DAO;
+
+public interface Stu_DAO {
+
+}

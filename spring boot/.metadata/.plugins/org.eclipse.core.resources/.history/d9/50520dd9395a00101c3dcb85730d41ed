@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Form</title>
+</head>
+<body>
+  <h2>Add Student</h2>
+  <form action="/addStu" method="POST">
+    <label for="StId">Student No:</label><br>
+    <input type="number" id="StId" name="StId" required><br><br>
+
+    <label for="fName">First Name:</label><br>
+    <input type="text" id="fName" name="fName" required><br><br>
+
+    <label for="lName">Last Name:</label><br>
+    <input type="text" id="lName" name="lName" required><br><br>
+
+    <label for="Marks">Marks:</label><br>
+    <input type="number" id="Marks" name="Marks" required><br><br>
+
+    <input type="submit" value="Save">
+  </form>
+</body>
+</html>
